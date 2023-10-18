@@ -34,6 +34,7 @@ teamsMeetingJoinButton.addEventListener("click", () => {
     })
 
     call.feature(Features.Recording).on('isRecordingActiveChanged', () => {
+        console.log('isRecordingActiveChanged event received');
         if (call.feature(Features.Recording).isRecordingActive) {
             recordingStateElement.innerText = "This call is being recorded";
         }
@@ -43,6 +44,7 @@ teamsMeetingJoinButton.addEventListener("click", () => {
     });
 
     call.feature(Features.Transcription).on('isTranscriptionActiveChanged', () => {
+        console.log('isTranscriptionActiveChanged event received');
         if (call.feature(Features.Transcription).isTranscriptionActive) {
             transcriptionStateElement.innerText = "This call is being transcribed";
         }
