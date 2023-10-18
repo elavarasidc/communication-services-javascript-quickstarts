@@ -9,6 +9,7 @@ const hangUpButton = document.getElementById('hang-up-button');
 const teamsMeetingJoinButton = document.getElementById('join-meeting-button');
 const callStateElement = document.getElementById('call-state');
 const recordingStateElement = document.getElementById('recording-state');
+const transcriptionStateElement = document.getElementById('transcription-state');
 
 async function init() {
     const callClient = new CallClient();
@@ -40,6 +41,16 @@ teamsMeetingJoinButton.addEventListener("click", () => {
             recordingStateElement.innerText = "";
         }
     });
+
+    call.feature(Features.Transcription).on('isTranscriptionActiveChanged', () => {
+        if (call.feature(Features.Transcription).isTranscriptionActive) {
+            transcriptionStateElement.innerText = "This call is being transcribed";
+        }
+        else {
+            transcriptionStateElement.innerText = "";
+        }
+    });
+
     hangUpButton.disabled = false;
     teamsMeetingJoinButton.disabled = true;
 });
