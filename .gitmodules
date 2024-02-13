@@ -13,3 +13,6 @@
 [submodule "AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/Front-End"]
 	path = AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/Front-End
 	url = https://github.com/elavarasidc/communication-services-javascript-quickstarts
+[submodule "AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/FrontEnd"]
+	path = AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/FrontEnd
+	url = git@github.com:ACS-SampleProjects/communication-services-web-calling-tutorial.git
