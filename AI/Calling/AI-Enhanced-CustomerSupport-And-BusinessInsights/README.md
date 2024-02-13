@@ -1,4 +1,6 @@
-ACS Client Calling SDK integration with Azure OpenAI – Reimagining customer support and Business insight
+ACS Client Calling SDK integration with Azure OpenAI
+
+Reimagining customer support and Business insight
 Azure Communication Services real-time voice and video Client Calling SDK can be used for a wide range of Business To Consumer calling scenarios. 
 In all scenarios, your application will benefit from a wide ecosystem of Azure cloud services.
 This project is an integration of Azure Communication Services Client Calling SDK with Azure Open AI to show how businesses could benefit from artificial intelligence in a client-calling flow. 
