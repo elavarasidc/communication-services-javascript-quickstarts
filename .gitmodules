@@ -1,3 +1,9 @@
 [submodule "AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/BackEnd/OpenAIGateway"]
 	path = AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/BackEnd/OpenAIGateway
 	url = git@github.com:ACS-SampleProjects/OpenAIGateway.git
+[submodule "AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/BackEnd/--force"]
+	path = AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/BackEnd/--force
+	url = git@github.com:ACS-SampleProjects/OpenAIGateway.git
+[submodule "AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/--Back-End"]
+	path = AI/Calling/AI-Enhanced-CustomerSupport-And-BusinessInsights/--Back-End
+	url = git@github.com:ACS-SampleProjects/OpenAIGateway.git
